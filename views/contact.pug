@@ -1,0 +1,27 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=0.8, maximum-scale=1')
+  title Vanres Academy
+  link(rel='stylesheet' href='static/css/bootstrap.css')
+  link(rel='stylesheet' href='static/css/vanres_academy.css')
+#nav
+  .col-sm.nav-align
+    h1#title Vanres Academy
+  .col-sm.nav-align
+    a(href=Pages[0])
+      span.button Home
+    a(href=Pages[1])
+      span.button Courses
+    a(href=Pages[2])
+      span.button Contact
+.container
+  .col-sm-6
+    img(src='static/images/graph.png' alt='')
+  .col-sm-6
+    h1 Reach out to us!
+    p Enter your email if you&apos;re interested to learn more:
+    form.contact-form(action='/' method='post')
+      input(type='email' name='email' value='youremail@domain.com' required='')
+      input.button(type='submit')
+    p We&apos;ll get back to you soon!

@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=0.8, maximum-scale=1')
+  title Vanres Academy
+  link(rel='stylesheet' href='static/css/bootstrap.css')
+  link(rel='stylesheet' href='static/css/vanres_academy.css')
+#nav
+  .col-sm.nav-align
+    h1#title Vanres Academy
+  .col-sm.nav-align
+    a(href='views/index.pug')
+      span.button Home
+    a(href='views/courses.pug')
+      span.button Courses
+    a(href='views/contact.pug')
+      span.button Contact
+.container
+  .col-sm-6
+    img(src='static/images/people.jpg' alt='')
+  .col-sm-6
+    h1 Welcome!
+    p Please check out all the cool new courses by our innovative and creative chefs.
+    p
+      | If you want to see a new course, click the 
+      a(href='views/courses.pug') courses page
+      |  and
+      |           explore!
+    p
+      | When you see a course you like you can
+      a(href='views/contact.pug') contact us to join!
+      |  Soon you&apos;ll be cooking in your own home.
